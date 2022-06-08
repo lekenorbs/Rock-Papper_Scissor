@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" />
+    <title>Web Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS.css" />
+</head>
+
+<body>
+    <!-- Challange One : You age in Days-->
+    <div class="Container1">
+        <h1> Challange One: Your Age In Days</h1>
+        <div class="flexbox1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        <div class="flexbox1">
+            <div id="flexbox_result"></div>
+        </div>
+    </div>
+    <!-- Challange Two: Cat Generator-->
+    <div class="Container2">
+        <h1 class="gen">Challenge 2: Cat Generator</h1>
+        <div class="buttons">
+            <div>
+                <button class="btn btn-success" onclick="generateCat()">Generate Cat</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="removeCat()">Remove Cats</button>
+            </div>
+        </div>
+        <div class="flexbox2" id="flex_cat_gen">
+
+        </div>
+    </div>
+    <!-- Challange Three: Rock Paper Scissor-->
+    <div class="Container3">
+        <h1> Challenge 3: Rock, Paper, Scissor</h1>
+        <div class="rps-flex-box" id="rps-flex-div">
+            <img id="rock" src="https://static.wikia.nocookie.net/yandere-simulator-fan/images/4/4e/Johnson.jpg/revision/latest?cb=20160719150302" height="150" width="150" alt="" onclick="rpsGame(this)" />
+            <img id="paper" src="https://clipartion.com/wp-content/uploads/2015/11/free-paper-clipart-public-domain-paper-clip-art-images-and-graphics.png" height="150" width="150" alt="" onclick="rpsGame(this)" />
+            <img id="scissor" src="https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_500x500_$&$product=PartyCity/891442_01" height="150" width="150" alt="" onclick="rpsGame(this)" />
+        </div>
+    </div>
+
+    <!-- Challange Four: Change Colors of All Buttons-->
+
+    <script src="JS.js"></script>
+</body>
+</html> 
